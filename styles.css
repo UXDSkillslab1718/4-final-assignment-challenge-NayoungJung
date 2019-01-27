@@ -68,11 +68,11 @@
   }
 
   .iconic{
-    padding : 100px;
-    left :220px;
+  padding : 100px;
+  left :450px;
    position: relative;
-    width :60%;
-    height :60%;
+    width :40%;
+    height :40%;
   }
 
   .job-description {

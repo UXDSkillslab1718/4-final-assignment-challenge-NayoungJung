@@ -1,0 +1,169 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body,p {
+    font-family:'Roboto';
+    margin: 0;
+  }
+  h1, h2 {
+    font-family: 'Oswald',cursive;
+  }
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin: 0;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+   color : black;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top:80px;
+    padding-bottom:80px;
+  }
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+  background: #CFCFCF;
+  color: #000000;
+}
+/* header */
+header {
+  padding-top: 50px;
+  position: relative;
+}
+header h1, header h2 {
+  color: #000000;
+  margin: 0;
+}
+
+.iconic{
+  padding : 100px;
+  left :100px;
+ position: relative;
+  width :83%;
+  height :83%;
+
+}
+.img {
+  width:100%;
+  height:100%;
+  padding-top:20px;
+
+}
+.content-wrap a {
+    padding: 20px;
+    font-size:20px;
+    font-family: 'Oswald',cursive;
+    font-size:20px;
+    display: inline-block;
+  }
+
+  footer {
+   font-family: 'Oswald',cursive;
+    text-align: center;
+     padding-top: 20px;
+    padding-bottom: 50px;
+    padding: 20px;
+  }
+  footer a {
+    padding :20px;
+    font-size:20px;
+  }
+  footer p{
+    padding-top :60px;
+    padding-bottom :40px;
+  }
+
+  .contact-info {
+  padding: 10px;
+  display: inline-block;
+}
+ 
+ 
+
+
+/* Navigation
+-------------------------*/
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+/* Work Experience
+-------------------------*/
+.work {
+  background: #EDF2F4;
+}
+h3 ~ p {
+  margin: 0;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+  margin-top: 100px;
+}
+
+
+/* Education
+-------------------------*/
+.education {
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+              url(../images/bg2.jpg) no-repeat fixed;
+  background-size: cover;
+}
+p + h3 {
+  margin-top: 30px;
+}
+
+/* Media Queries
+-------------------------*/
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 899px){
+  header {
+    text-align: center;
+  }
+}

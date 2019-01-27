@@ -1,0 +1,218 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body,p {
+    font-family:'Roboto';
+    margin: 0;
+  } 
+  h1, h2 {
+    font-family: 'Oswald',cursive;
+  }
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin: 0;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+   color : black;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+  background: #CFCFCF;
+  color: #000000;
+}
+/* header */
+header {
+  padding-top: 50px;
+  position: relative;
+}
+header h1, header h2 {
+  color: #000000;
+  margin: 0;
+}
+
+.iconic1{
+  padding : 100px;
+  left :40px;
+ position: relative;
+  width :90%;
+  height :90%;
+}
+
+.iconic2{
+  padding : 100px;
+  left :130px;
+  bottom: 7px;
+ position: relative;
+  width :71.5%;
+  height :71.5%;
+}
+
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+footer {
+   font-family: 'Oswald',cursive;
+    text-align: center;
+     padding-top: 20px;
+    padding-bottom: 50px;
+    padding: 20px;
+  }
+  footer a {
+    padding :20px;
+    font-size:20px;
+  }
+  footer p{
+    padding-top :60px;
+    padding-bottom :40px;
+  }
+
+  .contact-info {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Navigation
+-------------------------*/
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+h3 ~ p {
+  margin: 0;
+}
+
+h4, h5 {
+  text-align: center;
+  color: white;
+  line-height:100px;
+}
+h4{
+   font-family:'Oswald';
+  font-size:40px;
+}
+h5 {
+  font-size : 20px;
+   line-height:40px;
+  font-family:'Roboto';
+}
+
+
+.job-description {
+  margin-bottom: 100px;
+ line-height:25px;
+}
+
+p + h3 {
+  margin-top: 20px;
+}
+
+/* Media Queries
+-------------------------*/
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+
+ .img{
+    width:100%;
+    float:left;
+  }
+  .btn{
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  margin-left:190px;
+  margin-top:10px;
+  }
+
+  .question1 {
+  background: linear-gradient(rgba(90, 90, 90, 0.8), rgba(100, 100, 100, 0.5)),
+              url(../images/bd1.jpg) no-repeat fixed;
+  background-size: cover;
+  padding: 150px;
+   padding-bottom:300px;
+}
+ .question2 {
+  background: linear-gradient(rgba(90, 90, 90, 0.8), rgba(100, 100, 100, 0.5)),
+              url(../images/gameshot.png) no-repeat fixed;
+  background-size: cover;
+  padding: 150px;
+}
+ .question3 {
+  background: linear-gradient(rgba(90, 90, 90, 0.8), rgba(100, 100, 100, 0.5)),
+              url(../images/game3.png) no-repeat fixed;
+  background-size: cover;
+  padding: 150px;
+  padding-bottom:200px;
+}
+
+.question4 {
+  background: linear-gradient(rgba(90, 90, 90, 0.9), rgba(100, 100, 100, 0.2)),
+              url(../images/bd3.3.png) no-repeat fixed;
+  background-size: cover;
+  padding: 150px;
+  padding-bottom:300px;
+}
+.question5 {
+  background: linear-gradient(rgba(90, 90, 90, 0.9), rgba(100, 100, 100, 0.2)),
+              url(../images/user.png) no-repeat fixed;
+  background-size: cover;
+  padding: 150px;
+  padding-bottom:200px;
+}
+
+
+}
+@media (max-width: 899px){
+  header {
+    text-align: center;
+  }
+}
